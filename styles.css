@@ -1,0 +1,106 @@
+body {
+    background-color: #FEECE9;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    background-color: #FDEBF7;
+    border: 3px solid white;
+    text-align: center
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid #EEEEEE
+}
+
+.nav ul li:hover {
+    background-color: #f8afff;
+    box-shadow: -5px -5px #de9ee43b;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('cambodiabanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner h1 {
+    padding-top: 100px;
+    color: azure;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+iframe{
+    margin-top: 15px;
+    align-self: center;
+    text-align: center;
+}
+
+.sitecard{
+    width: 300px;
+    height: 350px;
+    border: 2px solid #FFBBBB;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #ffa4a4
+}
+
+.sitecard img{
+    width: 100%
+}
+
+.sitecard a{
+    text-decoration: none;
+    background-color: #FDEFF4;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.sitecard a:hover{
+    background-color: #eed6de;
+}
+
+.sitecard:hover{
+    background-color: #F3C5C5;
+}
+
+table, tr, td, th{
+    color: black;
+    border: 2px solid #FFAFAF;
+    border-collapse: collapse;
+}
+
+table th{
+    width: 25%;
+    text-align:center
+}
+
+table tr td img{
+    width:90%;
+    height: 350px;
+}
+
+.foodcard{
+    width: 300px;
+    height: 275px;
+    border: 2px solid #FFBBBB;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #ffa4a4
+}
+
+.foodcard img{
+    width: 100%
+}
